@@ -1,4 +1,4 @@
-package RestAPI;
+package com.project.upbeat.RestAPI;
 import com.project.upbeat.GameProcess.Game;
 import com.project.upbeat.Exception.*;
 import com.project.upbeat.Game.*;
