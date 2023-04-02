@@ -2,7 +2,6 @@ package com.project.upbeat.Game;
 
 import com.project.upbeat.GameProcess.Game;
 import com.project.upbeat.GameProcess.GameUnit;
-import com.project.upbeat.Request.ConfigurationRequest;
 
 import java.util.*;
 
