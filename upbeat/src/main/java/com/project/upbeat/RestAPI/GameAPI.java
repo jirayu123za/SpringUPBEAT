@@ -18,7 +18,7 @@ public class GameAPI{
                 throw new WrongRequest("We should have name of Player!!");
             }else{
                 String configuration = configChangeToString(request.getConfig());
-                Game thisGame = BuildGame.getBuildGame(request.getNameOfPlayer1(), request.getNameOfPlayer2(), request.getConfig());
+                Game thisGame = BuildGame.getBuildGame(request.getNameOfPlayer1(), request.getNameOfPlayer2(), configuration);
                 ManageConstructionPlan.setGame(thisGame);
                 return ResponseEntity.ok(thisGame);
             }
