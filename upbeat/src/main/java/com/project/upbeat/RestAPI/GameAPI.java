@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("/RESTAPI")
 public class GameAPI{
 
-    @PatchMapping
+    @PostMapping("/gameAPI")
     public ResponseEntity<Game> gameAPI(@RequestBody GameRequest request){
         try{
             if(request.getNameOfPlayer1() == null || request.getNameOfPlayer2() == null){
